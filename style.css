@@ -1,0 +1,292 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #123261;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+height: 210px;
+    
+
+
+
+  }
+  
+  #logo-img {
+    background: url('../images/logo.png') no-repeat;
+    width: 160px;
+    height: 150px;
+    margin: 15px 15px 5px 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+   
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+margin: -111px 312px;
+ 
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 119px;
+padding: 0px 310px;
+    
+  }
+  
+  
+  #nav-list {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    padding: 8px 614px;
+margin: -185px 149px;
+   
+    
+    
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    margin: 50px;
+   
+   
+    
+    
+  }
+  #nav-list a:hover {
+    background: #b74f4f;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+   
+    
+  
+  }
+  
+    #nav-list a span {
+      font-size: -4.2em;
+      display: block;
+      list-style: none;
+      padding: -1px 3px;
+      margin: -15px -53px;
+      position: relative;
+      top: 31px;
+      left: 50px;
+      }
+    
+
+
+  
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+  }
+  #phone div { /* We Deliver */
+    color: #557c3e;
+    text-align: right;
+padding-right: 4px;
+margin-right: -95px;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  .navbar-header a img{
+    margin: 7px 145px;
+  }
+  .fa-solid{
+    font-weight: 924;
+    font-size: 41px;
+    }
+  
+  i.fa-solid.fa-utensils{
+    position: relative;
+    bottom: 28px;
+    right: 76px;
+  
+  }
+  i.fa-sharp.fa-solid.fa-info{
+    position: relative;
+    bottom: 28px;
+    right: 76px;
+  }
+  i.fa-solid.fa-star{
+    position: relative;
+    bottom: 28px;
+    right: 64px;
+  }
+
+  
+  /* END HEADER */
+
+ 
+ /* FOOTER */
+
+  .panel-footer {
+    margin-top: 580px;
+    padding-top: 54px;
+    padding-bottom: 97px;
+    background-color: #222;
+    border-top: 0;
+    display: flex;
+    height: 164px;
+    }
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+
+#hours{
+  padding: 0px 31px;
+margin: -30px -26px;
+
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#address {
+  padding: 128px 0px;
+  margin: -170px 36px;
+}
+
+.row{
+  display: flex;
+}
+
+
+#testimonials {
+  font-style: italic;
+position: absolute;
+left: 966px;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+.menu-item-photo div{
+    position: relative;
+    left: 189px;
+    top: 150px;
+    background-color: green;
+    text-align: center;
+    width: 62px;
+
+  }
+  .menu-item-description{
+    position: relative;
+    top: 18px;
+    left: 26px;
+  }
+/* main */
+
+.mainpic img{
+  width: 100%;
+}
+
+.menu-tile{
+  
+
+position: relative;
+top: 109px;
+left: 99px;
+}
+#specials-tile{
+
+  position: relative;
+left: 126px;
+top: 108px;
+
+
+}
+.map-tile{
+  position: relative;
+  display: inline;
+  bottom: -108px;
+  left: 153px;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+iframe{
+  width: 414px;
+  height: 251px;
+
+
+}
+
+
+#testimonials p{
+  position: relative;
+right: 50px;
+}
+
+
+.text-center{
+
+  text-align: center;
+  position: relative;
+  left: 169px;
+  top: 74px;
+
+}
+
+
+ #navMenuButton{
+  position: relative;
+  top: 24px;
+
+}
+
+ .abc{
+
+  position: relative;
+  top: 25px;
+}
